@@ -799,7 +799,7 @@ Blog
 ===============
 */
 .blog {
-  background: var(--clr-grey-10);
+  background: rgb(230, 228, 228);
 }
 .card {
   height: 27rem;
@@ -913,7 +913,6 @@ Single Page
   max-width: 700px;
 }
 .page-info a {
-  text-transform: uppercase;
   color: var(--clr-primary-5);
   -webkit-transition: var(--transition);
   transition: var(--transition);
