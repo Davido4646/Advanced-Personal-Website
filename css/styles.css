@@ -346,7 +346,7 @@ hero
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
-.hero-img {
+.main-img {
   display: none;
 }
 .hero {
@@ -367,7 +367,7 @@ hero
   margin-top: 1.25rem;
 }
 @media screen and (min-width: 992px) {
-  .hero-img {
+  .main-img {
     display: block;
     position: relative;
   }
@@ -375,7 +375,7 @@ hero
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-img::before,
+  .main-img::before,
   .about-img::before {
     content: "";
     position: absolute;
